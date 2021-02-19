@@ -26,8 +26,8 @@ The profile your are visiting belongs to Md Jahir Ahmed. He is junior software e
 
 #### Professional Experiences
 
-<!-- **AITS Idea Ltd.** - Junior Software Engineer (November 2020 - Present) -->
-- **Millennium Information Solutions Ltd.** - Software Engineer (February 2019 to June 2020)
+**AITS Idea Ltd.** - Junior Software Engineer (November 2020 - Present)
+**Millennium Information Solutions Ltd.** - Software Engineer (February 2019 to June 2020)
 
 <!--#### Feature Projects
 1. App Presentation : [Live](https://lifeoflikhon.github.io/app-presentation) - [Source Code](https://github.com/lifeoflikhon/app-presentation)
