@@ -29,10 +29,10 @@ The profile your are visiting belongs to Md Jahir Ahmed. He is junior software e
 - **AITS Idea Ltd.** - Junior Software Engineer (November 2020 - Present)
 - **Millennium Information Solutions Ltd.** - Software Engineer (February 2019 to June 2020)
 
-<#### Feature Projects
+<!--#### Feature Projects
 1. App Presentation : [Live](https://lifeoflikhon.github.io/app-presentation) - [Source Code](https://github.com/lifeoflikhon/app-presentation)
 2. AITS Website : [Live](https://aitsidea.com)
--3. Personal Website: [Live](https://jahir509.github.io)
+-3. Personal Website: [Live](https://jahir509.github.io) -->
 
 #### Feature Blogs
 
@@ -42,7 +42,7 @@ Comming soon...
 
 - B.Sc in CSE - **United International University** | 2014-2018
 
-<!--#### Likhon and Opensource
+<!--#### Jahir and Opensource
 
 [![My github stats](https://github-readme-stats.anuraghazra1.vercel.app/api?username=lifeoflikhon&show_icons=true)](https://github.com/lifeoflikhon/github-readme-stats)-->
 
