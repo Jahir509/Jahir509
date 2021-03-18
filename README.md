@@ -25,7 +25,7 @@ The profile your are visiting belongs to Md Jahir Ahmed. He is junior software e
 <code><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Laravel.svg/1200px-Laravel.svg.png" height="40"></code>
 <code><img src="https://resources.jetbrains.com/storage/products/webstorm/img/meta/webstorm_logo_300x300.png" height="40"></code>
 <code><img src="https://resources.jetbrains.com/storage/products/phpstorm/img/meta/phpstorm_logo_300x300.png" height="40"></code>
-
+<code><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e4/Visual_Studio_2013_Logo.svg/580px-Visual_Studio_2013_Logo.svg.png" height="40"></code>
 
 
 
