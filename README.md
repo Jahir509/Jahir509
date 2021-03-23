@@ -11,7 +11,7 @@ The profile your are visiting belongs to Md Jahir Ahmed. He is junior software e
 - 📞 (+880) 1991 339009
 - 💌 me.jahirahmed@gmail.com
 
-#### Career Objective
+<!--#### Career Objective-->
 
 #### Tools He Uses
 
