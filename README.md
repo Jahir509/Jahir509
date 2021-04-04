@@ -31,7 +31,7 @@ The profile your are visiting belongs to Md Jahir Ahmed. He is junior software e
 
 #### Professional Experiences
 
-- **AITS Idea Ltd.** - Junior Software Engineer (November 2020 - Present)
+- **AITS Idea Ltd.** - Junior Software Engineer (July 2020 - March 2021)
 - **Millennium Information Solutions Ltd.** - Software Engineer (February 2019 to June 2020)
 
 <!--#### Feature Projects
