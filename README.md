@@ -41,7 +41,7 @@ The profile your are visiting belongs to Md Jahir Ahmed. He is junior software e
 
 #### Feature Blogs
 
-Comming soon...
+Comming soon....
 
 #### Educational Background
 
