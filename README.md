@@ -4,7 +4,7 @@
 
 
 #### Quick Look
-The profile your are visiting belongs to Md Jahir Ahmed. He is junior software engineer who lives in Dhaka, Bangladesh 🇧🇩. Now he is working on a local company called AITS Idea Ltd. His responsibility is making the products of AITS Idea Ltd. more beautiful, secure, and reliable. He is currently using Angular, C# to developing something amazing, something new to Bangladesh.
+The profile your are visiting belongs to Md Jahir Ahmed. He is a programmer who lives in Dhaka, Bangladesh 🇧🇩. Now he is working on a company called belivIt. His responsibility is making the products of beliveIt, more beautiful, secure, and reliable. He is currently using Angular, Node.js to developing something amazing, something new to Bangladesh.
 
 #### Contact With Him
 
@@ -30,7 +30,7 @@ The profile your are visiting belongs to Md Jahir Ahmed. He is junior software e
 
 
 #### Professional Experiences
-
+- **belivIt** - Programmer (Present)
 - **AITS Idea Ltd.** - Junior Software Engineer (July 2020 - March 2021)
 - **Millennium Information Solutions Ltd.** - Software Engineer (February 2019 to June 2020)
 
