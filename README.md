@@ -1,4 +1,4 @@
-<img src="https://media-exp1.licdn.com/dms/image/C5103AQGgiv7bsJvXIQ/profile-displayphoto-shrink_200_200/0/1581490807749?e=1619049600&v=beta&t=HtympZKgRi6ZFLglqKoVm_k6vyF0nvIUuiPgY2OLJrA" width="100" height="100">  
+<img src="https://tinyurl.com/y5z3p9o8" width="100" height="100">  
 
 ## Hi there, it's me, Jahir 👋 
 
