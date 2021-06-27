@@ -2,13 +2,12 @@
 
 ## Hi there, it's me, Jahir 👋 
 
-
 #### Quick Look
 The profile your are visiting belongs to Md Jahir Ahmed. He is a programmer who lives in Dhaka, Bangladesh 🇧🇩. Now he is working on a company called belivIt. His responsibility is making the products of beliveIt, more beautiful, secure, and reliable. He is currently using Angular, Node.js to developing something amazing, something new to Bangladesh.
 
 #### Contact With Him
 
-- 📞 (+880) 1991339009
+- 📞 (+880) 1991-339009
 - 💌 me.jahirahmed@gmail.com
 
 <!--#### Career Objective-->
@@ -54,4 +53,7 @@ Comming soon....
 #### Follow Him
 
 [Facebook](https://fb.com/zahir.ahmed.7315) [Twitter](https://twitter.com/jahir509) [Linkedin](https://www.linkedin.com/in/jahir509)
+
+#### For Resume or CV
+[DriveLink](https://drive.google.com/file/d/17PpOgqwlqaMfgxAsa_IAA5TXv4FsUH26/view?usp=sharing)
 
