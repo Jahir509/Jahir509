@@ -44,7 +44,7 @@ Comming soon....
 
 #### Educational Background
 
-- B.Sc in CSE - **United International University** | 2014-2018
+- B.Sc in CSE - **United International University** | 2014-2019
 
 <!--#### Jahir and Opensource
  
