@@ -40,7 +40,7 @@ The profile your are visiting belongs to Md Jahir Ahmed. He is a programmer who 
 
 #### Feature Blogs
 
-Comming soon....
+Comming soon.....
 
 #### Educational Background
 
