@@ -1,11 +1,11 @@
 <img src="https://avatars.githubusercontent.com/u/20040216?v=4" width="100" height="100">  
 
-## Hi there, it's me, Jahir 👋 
+## Hi there, it's me, Jahir Ahmed👋 
 
 #### Quick Look
 The profile your are visiting belongs to Md Jahir Ahmed. He is a programmer who lives in Dhaka, Bangladesh 🇧🇩. Now he is working on a company called belivIt. His responsibility is making the products of beliveIt, more beautiful, secure, and reliable. He is currently using Angular, Node.js to developing something amazing, something new to Bangladesh.
 
-#### Contact With Him
+#### Contact With Him 
 
 - 📞 (+880) 01991339009
 - 💌 me.jahirahmed@gmail.com
