@@ -31,7 +31,6 @@ The profile your are visiting belongs to Md Jahir Ahmed. He is a programmer who 
 #### Professional Experiences
 - **belivIt** - Programmer (Present) 
 - **AITS Idea Ltd.** - Junior Software Engineer (July 2020 - March 2021)
-- **Millennium Information Solutions Ltd.** - Software Engineer (February 2019 to June 2020)
 
 <!--#### Feature Projects
 1. App Presentation : [Live](https://lifeoflikhon.github.io/app-presentation) - [Source Code](https://github.com/lifeoflikhon/app-presentation)
