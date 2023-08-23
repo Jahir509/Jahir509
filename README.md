@@ -54,5 +54,5 @@ Comming soon.....
 [Facebook](https://fb.com/zahir.ahmed.7315) [Twitter](https://twitter.com/jahir509) [Linkedin](https://www.linkedin.com/in/jahir509)
 
 #### For Resume or CV
-[Google Drive](https://drive.google.com/file/d/18YUs9aChiPhMQ0ZjoP6B0Q6Gqk2vy94a/view?usp=sharing)
+[Google Drive](https://drive.google.com/file/d/1ReZHlfW6-yVnUw_cT72aUPa9BBy5Ho0f/view?usp=sharing)
 
