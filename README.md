@@ -3,7 +3,7 @@
 ## Hi there, it's me, Jahir👋 
 
 #### Quick Look
-The profile your are visiting belongs to Md Jahir Ahmed. He is a programmer who lives in Dhaka, Bangladesh 🇧🇩. Now he is working on a company called belivIt. His responsibility is making the products of beliveIt, more beautiful, secure, and reliable. He is currently using Angular, Node.js to developing something amazing, something new to Bangladesh.
+The profile your are visiting belongs to Md Jahir Ahmed. He is a programmer who lives in Dhaka, Bangladesh 🇧🇩. Now he is working on a company called RIMES. His responsibility is making the products of RIMES, more beautiful, secure, and reliable. He is currently using Angular, Node.js to developing something amazing, something new to Bangladesh.
 
 #### Contact With Him 
 
@@ -29,7 +29,8 @@ The profile your are visiting belongs to Md Jahir Ahmed. He is a programmer who 
 
 
 #### Professional Experiences
-- **belivIt** - Programmer (Present) 
+- **Regional Integrated Multi Hazard Early Warning System for ASIA and AFRICA (RIMES)** - Programmer (Present)
+- **belivIt** - Programmer (Present)  
 - **AITS Idea Ltd.** - Junior Software Engineer (July 2020 - March 2021)
 
 <!--#### Feature Projects
