@@ -29,7 +29,7 @@ The parts I care about most are the unglamorous ones: data that is actually corr
 <table>
   <tr>
     <td colspan="3" width="25%" valign="top">
-      <h2>7+</h2>
+      <h2>6+</h2>
       years shipping production backends, data pipelines and infrastructure
     </td>
     <td colspan="3" width="25%" valign="top">
@@ -45,7 +45,7 @@ The parts I care about most are the unglamorous ones: data that is actually corr
       government agencies whose officials I have trained on-site, across 5 districts of Bangladesh
     </td>
   </tr>
-  <tr>
+  <!-- <tr>
     <td colspan="4" width="33%" valign="top">
       <h2>~6 days</h2>
       of lag removed from landslide hazard flags by fixing reversed rainfall weighting in our LHASA pipeline
@@ -58,7 +58,7 @@ The parts I care about most are the unglamorous ones: data that is actually corr
       <h2>4 VIPs</h2>
       floated by one HAProxy + Keepalived pair across 2 self-hosted RKE2 clusters on 2 networks
     </td>
-  </tr>
+  </tr> -->
 </table>
 
 ### Selected work
