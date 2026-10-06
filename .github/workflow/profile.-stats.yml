@@ -1,0 +1,114 @@
+# Save this as .github/workflows/profile-stats.yml in the Jahir509/Jahir509 repository.
+#
+# Builds the stats, top-languages, streak and contribution-snake images used by the
+# profile README and commits them to ./profile. Every card is generated in a light
+# and a dark version so it reads well in both GitHub themes.
+# Runs every morning, on demand from the Actions tab, and whenever this file changes.
+
+name: Profile stats
+
+on:
+  schedule:
+    - cron: "30 0 * * *" # 06:30 Dhaka time
+  workflow_dispatch:
+  push:
+    paths:
+      - ".github/workflows/profile-stats.yml"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: profile-stats
+  cancel-in-progress: true
+
+env:
+  # Palette, hex without '#'. Change a colour here and every card follows.
+  NAVY: "0B3954"      # titles and numbers, light theme
+  TEAL: "087E8B"      # icons and labels, light theme
+  SEAGLASS: "5BC0BE"  # titles, icons and labels, dark theme
+  AMBER: "F5A623"     # the single accent, kept for things that are live (streak, snake)
+  INK_LIGHT: "1F2328" # body text on GitHub's light background
+  INK_DARK: "E6EDF3"  # body text on GitHub's dark background
+  # Shared by the stats and languages cards: no border, transparent background, no animation
+  CARD_BASE: "hide_border=true&bg_color=00000000&disable_animations=true"
+
+jobs:
+  cards:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v7
+
+      # Stats card: all-time commits, PRs, repos contributed to.
+      # Stars and issues are hidden; delete "&hide=stars,issues" to show them.
+      - name: Stats card (light)
+        uses: stats-organization/github-readme-stats-action@v2
+        with:
+          card: stats
+          options: "username=${{ github.repository_owner }}&show_icons=true&include_all_commits=true&hide_rank=true&hide=stars,issues&${{ env.CARD_BASE }}&title_color=${{ env.NAVY }}&icon_color=${{ env.TEAL }}&text_color=${{ env.INK_LIGHT }}"
+          path: profile/stats.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Stats card (dark)
+        uses: stats-organization/github-readme-stats-action@v2
+        with:
+          card: stats
+          options: "username=${{ github.repository_owner }}&show_icons=true&include_all_commits=true&hide_rank=true&hide=stars,issues&${{ env.CARD_BASE }}&title_color=${{ env.SEAGLASS }}&icon_color=${{ env.SEAGLASS }}&text_color=${{ env.INK_DARK }}"
+          path: profile/stats-dark.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      # Languages card: counts your own (non-fork) public repos by code size.
+      # To keep older projects from dominating, add e.g. "&exclude_repo=50in50,FrontEnd".
+      - name: Languages card (light)
+        uses: stats-organization/github-readme-stats-action@v2
+        with:
+          card: top-langs
+          options: "username=${{ github.repository_owner }}&layout=compact&langs_count=6&hide=html,css,scss,blade&${{ env.CARD_BASE }}&title_color=${{ env.NAVY }}&text_color=${{ env.INK_LIGHT }}"
+          path: profile/top-langs.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Languages card (dark)
+        uses: stats-organization/github-readme-stats-action@v2
+        with:
+          card: top-langs
+          options: "username=${{ github.repository_owner }}&layout=compact&langs_count=6&hide=html,css,scss,blade&${{ env.CARD_BASE }}&title_color=${{ env.SEAGLASS }}&text_color=${{ env.INK_DARK }}"
+          path: profile/top-langs-dark.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      # Streak card: total contributions, current streak, longest streak.
+      - name: Streak card (light)
+        uses: DenverCoder1/github-readme-streak-stats@v1
+        with:
+          options: "user=${{ github.repository_owner }}&hide_border=true&background=00000000&stroke=D0D7DE&ring=${{ env.AMBER }}&fire=${{ env.AMBER }}&currStreakNum=${{ env.NAVY }}&sideNums=${{ env.NAVY }}&currStreakLabel=${{ env.TEAL }}&sideLabels=${{ env.TEAL }}&dates=57606A&disable_animations=true"
+          path: profile/streak.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Streak card (dark)
+        uses: DenverCoder1/github-readme-streak-stats@v1
+        with:
+          options: "user=${{ github.repository_owner }}&hide_border=true&background=00000000&stroke=30363D&ring=${{ env.AMBER }}&fire=${{ env.AMBER }}&currStreakNum=${{ env.INK_DARK }}&sideNums=${{ env.INK_DARK }}&currStreakLabel=${{ env.SEAGLASS }}&sideLabels=${{ env.SEAGLASS }}&dates=8B949E&disable_animations=true"
+          path: profile/streak-dark.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      # Contribution snake. The grid is coloured like a rainfall-intensity map
+      # (empty, light, moderate, heavy, extreme) and the snake is the amber alert.
+      - name: Contribution snake (light and dark)
+        uses: Platane/snk/svg-only@v3
+        with:
+          github_user_name: ${{ github.repository_owner }}
+          outputs: |
+            profile/snake.svg?color_snake=#${{ env.AMBER }}&color_dots=#EBEDF0,#B8E3E6,#5BC0BE,#087E8B,#0B3954
+            profile/snake-dark.svg?color_snake=#${{ env.AMBER }}&color_dots=#161B22,#0B3954,#087E8B,#5BC0BE,#B8E3E6
+
+      - name: Commit the refreshed images
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add profile
+          if git diff --cached --quiet; then
+            echo "Cards unchanged, nothing to commit."
+            exit 0
+          fi
+          git commit -m "chore: refresh profile stats"
+          git push
